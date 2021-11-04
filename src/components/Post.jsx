@@ -21,13 +21,13 @@ const Post = () => {
 	const deletePost = id => {
 		dispatch(deleteTodo(post.id))
 		alert("Post deleted, you will be taken to the main page")
-		navigate("/", { replace: true })
+		navigate("/react-blog", { replace: true })
 	}
 
 	return (
 		<div>
 			<BackBtn>
-				<Link to={`/`}>&#8592;Назад</Link>
+				<Link to={`/react-blog`}>&#8592;Назад</Link>
 			</BackBtn>
 
 			{status === "loading" ? (

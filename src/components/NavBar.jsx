@@ -9,7 +9,7 @@ function NavBar() {
 			<Navbar bg="light" expand="lg">
 				<Container fluid>
 					<Navbar.Brand>
-						<Link to={`/`}>React Blog</Link>
+						<Link to={`/react-blog`}>React Blog</Link>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="navbarScroll" />
 					<Navbar.Collapse id="navbarScroll">
@@ -19,12 +19,12 @@ function NavBar() {
 							navbarScroll
 						>
 							<Nav.Link>
-								<NavLink to="/" end>
+								<NavLink to="/react-blog" end>
 									Home
 								</NavLink>
 							</Nav.Link>
 							<Nav.Link>
-								<NavLink to="/about" end>
+								<NavLink to="/react-blog/about" end>
 									About
 								</NavLink>
 							</Nav.Link>

@@ -29,7 +29,7 @@ function Posts() {
 
 								<Text>
 									<Title>
-										<Link to={`/posts/${post.id}`}>{post.title}</Link>
+										<Link to={`/react-blog/posts/${post.id}`}>{post.title}</Link>
 									</Title>
 
 									<p>
@@ -39,7 +39,7 @@ function Posts() {
 									</p>
 									<Divider />
 
-									<Link to={`/posts/${post.id}`}>
+									<Link to={`/react-blog/posts/${post.id}`}>
 										<p>Read more...</p>
 									</Link>
 								</Text>
