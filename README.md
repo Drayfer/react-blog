@@ -11,7 +11,7 @@ You can see a demo on GitHub Pages by [this link](https://drayfer.github.io/reac
 ```
 
 ## See how it looks
-![animation](https://s9.gifyu.com/images/react-blog.gif)
+![animation](https://media.giphy.com/media/RExkxJIcxwXs6eU8lq/giphy.gif)
 
 
 ## I used this stack
