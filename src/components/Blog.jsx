@@ -12,9 +12,9 @@ function Blog() {
 		<Container fluid>
 			<Wrapper>
 				<Routes>
-					<Route path="/" element={<Posts />} />
-					<Route path="posts/:postId" element={<Post />} />
-					<Route path="about" element={<About />} />
+					<Route path="/react-blog" element={<Posts />} />
+					<Route path="/react-blogposts/:postId" element={<Post />} />
+					<Route path="/react-blog/about" element={<About />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</Wrapper>
