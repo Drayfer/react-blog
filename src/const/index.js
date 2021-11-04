@@ -1,0 +1,1 @@
+export const URL = 'https://bloggy-api.herokuapp.com'
