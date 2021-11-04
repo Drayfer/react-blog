@@ -16,9 +16,6 @@ You can see a demo on GitHub Pages by [this link](https://drayfer.github.io/reac
 
 ## I used this stack
 
-- Уровень списка 1. Пункт 1.
-- Уровень списка 1. Пункт 2.
-- Уровень списка 1. Пункт 3.
 - React.JS
 - React Hooks
 - Redux Toolkit
