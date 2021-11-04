@@ -29,7 +29,9 @@ function Posts() {
 
 								<Text>
 									<Title>
-										<Link to={`/react-blog/posts/${post.id}`}>{post.title}</Link>
+										<Link to={`/react-blog/posts/${post.id}`}>
+											{post.title}
+										</Link>
 									</Title>
 
 									<p>
