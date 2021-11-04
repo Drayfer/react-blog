@@ -13,7 +13,7 @@ function Blog() {
 			<Wrapper>
 				<Routes>
 					<Route path="/react-blog" element={<Posts />} />
-					<Route path="/react-blogposts/:postId" element={<Post />} />
+					<Route path="/react-blog/posts/:postId" element={<Post />} />
 					<Route path="/react-blog/about" element={<About />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
